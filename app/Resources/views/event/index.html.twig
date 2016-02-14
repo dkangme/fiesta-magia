@@ -1,0 +1,46 @@
+{% extends 'admin.html.twig' %}
+
+{% block body %}
+
+    
+    <h2>Eventos</h2>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Evento</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Lugar</th>
+                <th>Contacto</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for event in events %}
+            <tr>
+                <td>{{ event.idEvent }}</td>
+                <td><a href="{{ path('admin_event_show', { 'id': event.idEvent }) }}">{{ event.key }}</a></td>
+                <td>{{ event.name }}</td>
+                <td>{% if event.eventDate %}{{ event.eventDate|date('d-m-Y') }}{% endif %}</td>
+                <td>{{ event.place }}</td>
+                <td>{{ event.contactName }}</td>
+                
+                
+                <td>
+                    <a href="{{ path('admin_event_gallery', { 'id': event.idEvent }) }}"><i class="fa fa-camera"></i> ver</a>
+                    &nbsp;
+                    <a href="{{ path('admin_event_edit', { 'id': event.idEvent }) }}"><i class="fa fa-pencil"></i> editar</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('admin_event_new') }}">Create a new entry</a>
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\AccessLog" table="access_log">
+    <indexes>
+      <index name="EVENT" columns="event_key"/>
+    </indexes>
+    <id name="idAccessLog" type="integer" column="id_access_log">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="dateAccess" type="datetime" column="date_access" nullable="false"/>
+    <field name="ipOrigin" type="string" column="ip_origin" length="15" nullable="false"/>
+    <field name="eventKey" type="string" column="event_key" length="8" nullable="false"/>
+  </entity>
+</doctrine-mapping>

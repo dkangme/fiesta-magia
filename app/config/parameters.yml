@@ -2,7 +2,7 @@
 parameters:
     database_host: s2.k-group.cl
     database_port: 3306
-    database_name: FYM
+    database_name: FYM2
     database_user: root
     database_password: mies2014
     mailer_transport: smtp
