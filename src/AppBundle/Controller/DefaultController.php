@@ -13,9 +13,26 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-        // replace this example code with whatever you need
+        $seleccion = array();
+
+        $em = $this->getDoctrine()->getManager();
+
+        $query = $em->createQuery(
+            'SELECT p 
+            FROM AppBundle:Media
+            WHERE p.front = 1');
+
+        $photos = $query->getResult();
+
+        for ($i=0; $i < 8; $i++)
+        {
+            $numero = rand(1, $photos.len);
+
+            $seleccion.push($numero);
+        }
+
         return $this->render('default/index.html.twig', array(
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
+            "seleccion" => $seleccion,
         ));
     }
 }

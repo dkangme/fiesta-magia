@@ -15,8 +15,8 @@ class __TwigTemplate_c4815a1b91178121fe000562f786b193f85ae3f60c50e4f7024521dab70
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a876b09910aae2e6e03b732e2522e072fe7851bd42e2c13e7bd4140e7ac1a168 = $this->env->getExtension("native_profiler");
-        $__internal_a876b09910aae2e6e03b732e2522e072fe7851bd42e2c13e7bd4140e7ac1a168->enter($__internal_a876b09910aae2e6e03b732e2522e072fe7851bd42e2c13e7bd4140e7ac1a168_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:header.html.twig"));
+        $__internal_9195a9c92b4f855efc673c0117912d86382956d328572839055af4578e13dbd2 = $this->env->getExtension("native_profiler");
+        $__internal_9195a9c92b4f855efc673c0117912d86382956d328572839055af4578e13dbd2->enter($__internal_9195a9c92b4f855efc673c0117912d86382956d328572839055af4578e13dbd2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:header.html.twig"));
 
         // line 1
         echo "<div id=\"header\">
@@ -38,7 +38,7 @@ class __TwigTemplate_c4815a1b91178121fe000562f786b193f85ae3f60c50e4f7024521dab70
 </div>
 ";
         
-        $__internal_a876b09910aae2e6e03b732e2522e072fe7851bd42e2c13e7bd4140e7ac1a168->leave($__internal_a876b09910aae2e6e03b732e2522e072fe7851bd42e2c13e7bd4140e7ac1a168_prof);
+        $__internal_9195a9c92b4f855efc673c0117912d86382956d328572839055af4578e13dbd2->leave($__internal_9195a9c92b4f855efc673c0117912d86382956d328572839055af4578e13dbd2_prof);
 
     }
 

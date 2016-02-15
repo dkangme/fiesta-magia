@@ -2,22 +2,22 @@
 
 {% block stylesheets %}
 
-<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
 <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 <link rel="stylesheet" href="{{ asset('css/bootstrap-image-gallery.min.css') }}"> 
 
 {% endblock %}
 
 {% block body %}
-
+    <br/>
     <div class="center wow fadeInDown">
         <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4"><img src="{{ event.logotipo }}"/></div>
-            <div class="col-sm-8 col-md-8 col-lg-8">
+            <div class="col-sm-3 col-md-3 col-lg-3"><img src="{{ asset(photos[0].idEvent.logotipo) }}" width="30%" height=30%"/></div>
+            <div class="col-sm-5 col-md-5 col-lg-5">
                 <br/>
                 <h2>{{ photos[0].idEvent.name }}<br/><small>{{ photos[0].idEvent.eventDate |date('d-M-Y')}}</small></h2>
-                <h3>{{ photos[0].idEvent.place }}</h3>
+                <h2><small>{{ photos[0].idEvent.place }}</small></h2>
             </div>
+            <div class="col-sm-3 col-md-3 col-lg-3"><img src="{{ asset(photos[0].idEvent.logotipo) }}" width="30%" height=30%"/></div>
         </div>
     </div>
     <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->

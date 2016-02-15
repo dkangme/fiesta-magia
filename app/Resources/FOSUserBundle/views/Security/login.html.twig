@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block body %}
+
+	<div="container">
+		<div class="row">
+			<div class="col-sm-4 col-md-4 col-lg-4"></div>
+			<div class="col-sm-3 col-md-3 col-lg-3">
+
+				<div class="center">
+					<img src="{{ asset('images/logo_fiestaymagia.jpg') }}" width="35%" height="35%"/>
+				</div>
+
+				{% if error %}
+				    <div class="form-signin alert alert-danger"><strong>Error:</strong>{{ error.messageKey|trans(error.messageData, 'security') }} </div>
+				{% endif %}
+
+				<form action="{{ path("fos_user_security_check") }}" method="post" class="form">
+				    <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+
+				    <label for="username">Usuario: </label>
+				    <input type="text" id="username" name="_username" value="{{ last_username }}" required="required" class="form-control autofocus"/>
+
+				    <label for="password">Clave: </label>
+				    <input type="password" id="password" name="_password" required="required" class="form-control" />
+				    <br/>
+				    <input type="submit" id="_submit" name="_submit" value="Entrar" />
+				</form>
+
+				<h3>Ingrese sus credenciales para acceder al sitio privado de &copy;Fiesta & Magia.</h3><br/><br/><br/>
+			</div>
+			<div class="col-sm-5 col-md-5 col-lg-5"></div>
+		</div>
+	</div>
+
+	
+
+{% endblock body %}

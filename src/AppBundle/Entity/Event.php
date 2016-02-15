@@ -220,4 +220,32 @@ class Event
     {
         return $this->idEvent;
     }
+    /**
+     * @var string
+     */
+    private $logotipo;
+
+
+    /**
+     * Set logotipo
+     *
+     * @param string $logotipo
+     * @return Event
+     */
+    public function setLogotipo($logotipo)
+    {
+        $this->logotipo = $logotipo;
+
+        return $this;
+    }
+
+    /**
+     * Get logotipo
+     *
+     * @return string 
+     */
+    public function getLogotipo()
+    {
+        return $this->logotipo;
+    }
 }

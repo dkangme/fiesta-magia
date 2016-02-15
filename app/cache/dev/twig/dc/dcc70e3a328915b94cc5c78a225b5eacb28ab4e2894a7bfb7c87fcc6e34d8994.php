@@ -19,8 +19,8 @@ class __TwigTemplate_0526a6c59cce795928015e8f22158d1b371b3797766ae1f30dedcb54dd9
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f1df3c0b5be31161c9613a738a63ec22dbaa38744f3787d386cc3f6c773015c8 = $this->env->getExtension("native_profiler");
-        $__internal_f1df3c0b5be31161c9613a738a63ec22dbaa38744f3787d386cc3f6c773015c8->enter($__internal_f1df3c0b5be31161c9613a738a63ec22dbaa38744f3787d386cc3f6c773015c8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
+        $__internal_5bd7559c1f875cffb332222d937bdef33fade23a6c69ad936d39f55363dee9a8 = $this->env->getExtension("native_profiler");
+        $__internal_5bd7559c1f875cffb332222d937bdef33fade23a6c69ad936d39f55363dee9a8->enter($__internal_5bd7559c1f875cffb332222d937bdef33fade23a6c69ad936d39f55363dee9a8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -95,10 +95,10 @@ class __TwigTemplate_0526a6c59cce795928015e8f22158d1b371b3797766ae1f30dedcb54dd9
                     <div class=\"collapse navbar-collapse navbar-right\">
                         <ul class=\"nav navbar-nav\">
                             <li class=\"active\"><a href=\"index.html\">Inicio</a></li>
-                            <li><a href=\"about-us.html\">Servicios</a></li>
-                            <li><a href=\"services.html\">Eventos</a></li>
-                            <li><a href=\"portfolio.html\">Contacto</a></li>
-                            <li><a href=\"blog.html\">Sitio Privado</a></li>                       
+                            <li><a href=\"#services\">Servicios</a></li>
+                            <li><a href=\"#\">Eventos</a></li>
+                            <li><a href=\"#\">Contacto</a></li>
+                            <li><a href=\"/admin/event\">Sitio Privado</a></li>                       
                         </ul>
                     </div>
                 </div><!--/.container-->
@@ -144,52 +144,52 @@ class __TwigTemplate_0526a6c59cce795928015e8f22158d1b371b3797766ae1f30dedcb54dd9
 </html>
 ";
         
-        $__internal_f1df3c0b5be31161c9613a738a63ec22dbaa38744f3787d386cc3f6c773015c8->leave($__internal_f1df3c0b5be31161c9613a738a63ec22dbaa38744f3787d386cc3f6c773015c8_prof);
+        $__internal_5bd7559c1f875cffb332222d937bdef33fade23a6c69ad936d39f55363dee9a8->leave($__internal_5bd7559c1f875cffb332222d937bdef33fade23a6c69ad936d39f55363dee9a8_prof);
 
     }
 
     // line 8
     public function block_title($context, array $blocks = array())
     {
-        $__internal_0b809e15ef417528422f6fb8b2a86b4afb6d72544d0f34b689a6b2291a4c8d5d = $this->env->getExtension("native_profiler");
-        $__internal_0b809e15ef417528422f6fb8b2a86b4afb6d72544d0f34b689a6b2291a4c8d5d->enter($__internal_0b809e15ef417528422f6fb8b2a86b4afb6d72544d0f34b689a6b2291a4c8d5d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_a33555c7e733d4dc50803e11d78c34e8c5cb088bae84f4c0b0b3bb7ab77f71dd = $this->env->getExtension("native_profiler");
+        $__internal_a33555c7e733d4dc50803e11d78c34e8c5cb088bae84f4c0b0b3bb7ab77f71dd->enter($__internal_a33555c7e733d4dc50803e11d78c34e8c5cb088bae84f4c0b0b3bb7ab77f71dd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Fiesta & Magia";
         
-        $__internal_0b809e15ef417528422f6fb8b2a86b4afb6d72544d0f34b689a6b2291a4c8d5d->leave($__internal_0b809e15ef417528422f6fb8b2a86b4afb6d72544d0f34b689a6b2291a4c8d5d_prof);
+        $__internal_a33555c7e733d4dc50803e11d78c34e8c5cb088bae84f4c0b0b3bb7ab77f71dd->leave($__internal_a33555c7e733d4dc50803e11d78c34e8c5cb088bae84f4c0b0b3bb7ab77f71dd_prof);
 
     }
 
     // line 26
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_afdf13d6ac244caa332723820dee0a9bdbaac5e9cf7d2a116e1d0833777b0f47 = $this->env->getExtension("native_profiler");
-        $__internal_afdf13d6ac244caa332723820dee0a9bdbaac5e9cf7d2a116e1d0833777b0f47->enter($__internal_afdf13d6ac244caa332723820dee0a9bdbaac5e9cf7d2a116e1d0833777b0f47_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_ae06c3026eea0343158be0a8b0128dd968327f411c4f52a0adfd5af0001ba1cc = $this->env->getExtension("native_profiler");
+        $__internal_ae06c3026eea0343158be0a8b0128dd968327f411c4f52a0adfd5af0001ba1cc->enter($__internal_ae06c3026eea0343158be0a8b0128dd968327f411c4f52a0adfd5af0001ba1cc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         
-        $__internal_afdf13d6ac244caa332723820dee0a9bdbaac5e9cf7d2a116e1d0833777b0f47->leave($__internal_afdf13d6ac244caa332723820dee0a9bdbaac5e9cf7d2a116e1d0833777b0f47_prof);
+        $__internal_ae06c3026eea0343158be0a8b0128dd968327f411c4f52a0adfd5af0001ba1cc->leave($__internal_ae06c3026eea0343158be0a8b0128dd968327f411c4f52a0adfd5af0001ba1cc_prof);
 
     }
 
     // line 76
     public function block_body($context, array $blocks = array())
     {
-        $__internal_a629fcc495a1c7a9056215e78c28e5fab65ef5b48f0ed3fdbed15036ceab41ba = $this->env->getExtension("native_profiler");
-        $__internal_a629fcc495a1c7a9056215e78c28e5fab65ef5b48f0ed3fdbed15036ceab41ba->enter($__internal_a629fcc495a1c7a9056215e78c28e5fab65ef5b48f0ed3fdbed15036ceab41ba_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_ca8436fa5bf9a798b14a41cb5d151233f68680fc822d2d02c1f47cbd2cb99fe2 = $this->env->getExtension("native_profiler");
+        $__internal_ca8436fa5bf9a798b14a41cb5d151233f68680fc822d2d02c1f47cbd2cb99fe2->enter($__internal_ca8436fa5bf9a798b14a41cb5d151233f68680fc822d2d02c1f47cbd2cb99fe2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         
-        $__internal_a629fcc495a1c7a9056215e78c28e5fab65ef5b48f0ed3fdbed15036ceab41ba->leave($__internal_a629fcc495a1c7a9056215e78c28e5fab65ef5b48f0ed3fdbed15036ceab41ba_prof);
+        $__internal_ca8436fa5bf9a798b14a41cb5d151233f68680fc822d2d02c1f47cbd2cb99fe2->leave($__internal_ca8436fa5bf9a798b14a41cb5d151233f68680fc822d2d02c1f47cbd2cb99fe2_prof);
 
     }
 
     // line 103
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_282110d03e6cef323f9d97107c32a2fcb914a0e83197396287f7023524a21b45 = $this->env->getExtension("native_profiler");
-        $__internal_282110d03e6cef323f9d97107c32a2fcb914a0e83197396287f7023524a21b45->enter($__internal_282110d03e6cef323f9d97107c32a2fcb914a0e83197396287f7023524a21b45_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_6840a3835168ab5575de32b6bc0ea6b63084445876da61d8110267b40a4ca231 = $this->env->getExtension("native_profiler");
+        $__internal_6840a3835168ab5575de32b6bc0ea6b63084445876da61d8110267b40a4ca231->enter($__internal_6840a3835168ab5575de32b6bc0ea6b63084445876da61d8110267b40a4ca231_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         
-        $__internal_282110d03e6cef323f9d97107c32a2fcb914a0e83197396287f7023524a21b45->leave($__internal_282110d03e6cef323f9d97107c32a2fcb914a0e83197396287f7023524a21b45_prof);
+        $__internal_6840a3835168ab5575de32b6bc0ea6b63084445876da61d8110267b40a4ca231->leave($__internal_6840a3835168ab5575de32b6bc0ea6b63084445876da61d8110267b40a4ca231_prof);
 
     }
 
@@ -272,10 +272,10 @@ class __TwigTemplate_0526a6c59cce795928015e8f22158d1b371b3797766ae1f30dedcb54dd9
 /*                     <div class="collapse navbar-collapse navbar-right">*/
 /*                         <ul class="nav navbar-nav">*/
 /*                             <li class="active"><a href="index.html">Inicio</a></li>*/
-/*                             <li><a href="about-us.html">Servicios</a></li>*/
-/*                             <li><a href="services.html">Eventos</a></li>*/
-/*                             <li><a href="portfolio.html">Contacto</a></li>*/
-/*                             <li><a href="blog.html">Sitio Privado</a></li>                       */
+/*                             <li><a href="#services">Servicios</a></li>*/
+/*                             <li><a href="#">Eventos</a></li>*/
+/*                             <li><a href="#">Contacto</a></li>*/
+/*                             <li><a href="/admin/event">Sitio Privado</a></li>                       */
 /*                         </ul>*/
 /*                     </div>*/
 /*                 </div><!--/.container-->*/

@@ -106,7 +106,7 @@
   'FOSUserBundle:Registration:register.html.twig' => '/home/dkangme/Documents/Desarrollo/fiesta-magia/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig',
   'FOSUserBundle:Registration:email.txt.twig' => '/home/dkangme/Documents/Desarrollo/fiesta-magia/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/email.txt.twig',
   'FOSUserBundle::layout.html.twig' => '/home/dkangme/Documents/Desarrollo/fiesta-magia/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig',
-  'FOSUserBundle:Security:login.html.twig' => '/home/dkangme/Documents/Desarrollo/fiesta-magia/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig',
+  'FOSUserBundle:Security:login.html.twig' => '/home/dkangme/Documents/Desarrollo/fiesta-magia/app/Resources/FOSUserBundle/views/Security/login.html.twig',
   'DebugBundle:Profiler:dump.html.twig' => '/home/dkangme/Documents/Desarrollo/fiesta-magia/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views/Profiler/dump.html.twig',
   'WebProfilerBundle:Router:panel.html.twig' => '/home/dkangme/Documents/Desarrollo/fiesta-magia/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Router/panel.html.twig',
   'WebProfilerBundle:Profiler:base_js.html.twig' => '/home/dkangme/Documents/Desarrollo/fiesta-magia/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/base_js.html.twig',

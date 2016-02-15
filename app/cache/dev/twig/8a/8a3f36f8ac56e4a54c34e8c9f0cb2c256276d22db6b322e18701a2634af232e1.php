@@ -1,6 +1,6 @@
 <?php
 
-/* :default:index.html.twig */
+/* default/index.html.twig */
 class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f866ad2 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("base.html.twig", ":default:index.html.twig", 1);
+        $this->parent = $this->loadTemplate("base.html.twig", "default/index.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
         );
@@ -21,20 +21,20 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e0ae4da381622c1adb260624e29efa6e7d21963a219d248c788d8b76c5f698fe = $this->env->getExtension("native_profiler");
-        $__internal_e0ae4da381622c1adb260624e29efa6e7d21963a219d248c788d8b76c5f698fe->enter($__internal_e0ae4da381622c1adb260624e29efa6e7d21963a219d248c788d8b76c5f698fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", ":default:index.html.twig"));
+        $__internal_23711c5ef75827002db94b52e16bba010eba65ca124055681d11a7b54a09f1f5 = $this->env->getExtension("native_profiler");
+        $__internal_23711c5ef75827002db94b52e16bba010eba65ca124055681d11a7b54a09f1f5->enter($__internal_23711c5ef75827002db94b52e16bba010eba65ca124055681d11a7b54a09f1f5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_e0ae4da381622c1adb260624e29efa6e7d21963a219d248c788d8b76c5f698fe->leave($__internal_e0ae4da381622c1adb260624e29efa6e7d21963a219d248c788d8b76c5f698fe_prof);
+        $__internal_23711c5ef75827002db94b52e16bba010eba65ca124055681d11a7b54a09f1f5->leave($__internal_23711c5ef75827002db94b52e16bba010eba65ca124055681d11a7b54a09f1f5_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_1e4bf1e581f5d1525daa81880e0c734a1e419195872db8e9edfedaa3e87ea9ea = $this->env->getExtension("native_profiler");
-        $__internal_1e4bf1e581f5d1525daa81880e0c734a1e419195872db8e9edfedaa3e87ea9ea->enter($__internal_1e4bf1e581f5d1525daa81880e0c734a1e419195872db8e9edfedaa3e87ea9ea_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_50ee29f81e6dddf699845ea015bd839752ecf6e0c8f4879607632c6460798a7c = $this->env->getExtension("native_profiler");
+        $__internal_50ee29f81e6dddf699845ea015bd839752ecf6e0c8f4879607632c6460798a7c->enter($__internal_50ee29f81e6dddf699845ea015bd839752ecf6e0c8f4879607632c6460798a7c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    <section id=\"main-slider\" class=\"no-margin\">
@@ -46,14 +46,14 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
             </ol>
             <div class=\"carousel-inner\">
 
-                <div class=\"item active\" style=\"background-image: url(images/slider/bg1.jpg)\">
+                <div class=\"item active\" style=\"background-image: url(images/slider/bg8.jpg)\">
                     <div class=\"container\">
                         <div class=\"row slide-margin\">
                             <div class=\"col-sm-6\">
                                 <div class=\"carousel-content\">
-                                    <h1 class=\"animation animated-item-1\">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class=\"animation animated-item-2\">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class=\"btn-slide animation animated-item-3\" href=\"#\">Read More</a>
+                                    <h1 class=\"animation animated-item-1\">Registra todos los momentos de tu fiesta y dale a tus invitados un recuerdo personalizado</h1>
+                                    <h2 class=\"animation animated-item-2\">Con nuestras cabinas fotográficas panorámicas o cerradas</h2>
+                                    <a class=\"btn-slide animation animated-item-3\" href=\"#recent-works\">Leer más</a>
                                 </div>
                             </div>
 
@@ -67,20 +67,20 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
                     </div>
                 </div><!--/.item-->
 
-                <div class=\"item\" style=\"background-image: url(images/slider/bg2.jpg)\">
+                <div class=\"item\" style=\"background-image: url(images/slider/bg5.jpg)\">
                     <div class=\"container\">
                         <div class=\"row slide-margin\">
                             <div class=\"col-sm-6\">
                                 <div class=\"carousel-content\">
-                                    <h1 class=\"animation animated-item-1\">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class=\"animation animated-item-2\">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class=\"btn-slide animation animated-item-3\" href=\"#\">Read More</a>
+                                    <h1 class=\"animation animated-item-1\">Personaliza tus fotos</h1>
+                                    <h2 class=\"animation animated-item-2\">Elije uno de nuestros diseños o envíanos el tuyo.</h2>
+                                    <a class=\"btn-slide animation animated-item-3\" href=\"#feature\">Leer más</a>
                                 </div>
                             </div>
 
                             <div class=\"col-sm-6 hidden-xs animation animated-item-4\">
                                 <div class=\"slider-img\">
-                                    <img src=\"images/slider/img2.png\" class=\"img-responsive\">
+                                    <img src=\"images/slider/img5.png\" class=\"img-responsive\">
                                 </div>
                             </div>
 
@@ -88,19 +88,40 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
                     </div>
                 </div><!--/.item-->
 
-                <div class=\"item\" style=\"background-image: url(images/slider/bg3.jpg)\">
+                <div class=\"item\" style=\"background-image: url(images/slider/bg7.jpg)\">
                     <div class=\"container\">
                         <div class=\"row slide-margin\">
                             <div class=\"col-sm-6\">
                                 <div class=\"carousel-content\">
-                                    <h1 class=\"animation animated-item-1\">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class=\"animation animated-item-2\">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class=\"btn-slide animation animated-item-3\" href=\"#\">Read More</a>
+                                    <h2 class=\"animation animated-item-2\">
+                                    
+
+                                    </h2>
+                                    
                                 </div>
                             </div>
-                            <div class=\"col-sm-6 hidden-xs animation animated-item-4\">
+                            <div class=\"col-sm-6 hidden-xs animation animated-item-4\" align=\"left\">
                                 <div class=\"slider-img\">
-                                    <img src=\"images/slider/img3.png\" class=\"img-responsive\">
+                                    <h1 class=\"animation animated-item-1\">Al arrendar nuestras cabinas obtendrás:</h1>
+                                    
+                                    <h2 class=\"animation animated-item-2\">
+
+                                    
+                                        <p>Fotos Ilimitadas</p>
+                                        <p>Álbum de dedicatorias (*)</p>
+                                        <p>Personapzación de las tiras fotográficas</p>
+                                        <p>Fotografías Imantadas (**)</p>
+                                        <p>Cotillón para las fotos.</p>
+                                        <p>Operador</p>
+                                        <p>Traslado sin costo en toda la Región Metropolitana.</p>
+                                        <p>Publicación de todas las fotos de tu evento en nuestros servidores durante 45 días.</p>
+                                    
+                                    <h2>(*) Sólo para matrimonios.</h2>
+                                    <h2>(**) Servicio opcional.</h2>
+
+                                    <a class=\"btn-slide animation animated-item-3\" href=\"#services\">Leer más</a>
+
+                                    </h2>
                                 </div>
                             </div>
                         </div>
@@ -186,111 +207,40 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
                 <h2>Nuestro Trabajo</h2>
                 <p class=\"lead\">Cada evento es un compromiso al que nos entregamos con alegría y profesinalismo. Nos esmeramos en que cada fotografía se convierta en el mejor recuerdo.</p>
             </div>
-
+  
             <div class=\"row\">
-                <div class=\"col-xs-12 col-sm-4 col-md-3\">
-                    <div class=\"recent-work-wrap\">
-                        <img class=\"img-responsive\" src=\"images/portfolio/recent/item1.png\" alt=\"\">
-                        <div class=\"overlay\">
-                            <div class=\"recent-work-inner\">
-                                <h3><a href=\"#\">Business theme</a> </h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class=\"preview\" href=\"images/portfolio/full/item1.png\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
 
-                <div class=\"col-xs-12 col-sm-4 col-md-3\">
-                    <div class=\"recent-work-wrap\">
-                        <img class=\"img-responsive\" src=\"images/portfolio/recent/item2.png\" alt=\"\">
-                        <div class=\"overlay\">
-                            <div class=\"recent-work-inner\">
-                                <h3><a href=\"#\">Business theme</a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class=\"preview\" href=\"images/portfolio/full/item2.png\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> View</a>
-                            </div> 
+                ";
+        // line 177
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["seleccion"]) ? $context["seleccion"] : $this->getContext($context, "seleccion")));
+        foreach ($context['_seq'] as $context["_key"] => $context["photo"]) {
+            // line 178
+            echo "                    <div class=\"col-xs-12 col-sm-4 col-md-3\">
+                        <div class=\"recent-work-wrap\">
+                            <img class=\"img-responsive\" src=\"";
+            // line 180
+            echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl($context["photo"]), "html", null, true);
+            echo "\" alt=\"\">
+                            <div class=\"overlay\">
+                                <div class=\"recent-work-inner\">
+                                    <h3><a href=\"#\">Declaración</a> </h3>
+                                    <p>Esta fotografía pertenece a quien contrató nuestro servicio. Prohibida su reproducción.</p>
+                                    <a class=\"preview\" href=\"";
+            // line 185
+            echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl($context["photo"]), "html", null, true);
+            echo "\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> Ver</a>
+                                </div> 
+                            </div>
                         </div>
-                    </div>
-                </div> 
-
-                <div class=\"col-xs-12 col-sm-4 col-md-3\">
-                    <div class=\"recent-work-wrap\">
-                        <img class=\"img-responsive\" src=\"images/portfolio/recent/item3.png\" alt=\"\">
-                        <div class=\"overlay\">
-                            <div class=\"recent-work-inner\">
-                                <h3><a href=\"#\">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class=\"preview\" href=\"images/portfolio/full/item3.png\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-
-                <div class=\"col-xs-12 col-sm-4 col-md-3\">
-                    <div class=\"recent-work-wrap\">
-                        <img class=\"img-responsive\" src=\"images/portfolio/recent/item4.png\" alt=\"\">
-                        <div class=\"overlay\">
-                            <div class=\"recent-work-inner\">
-                                <h3><a href=\"#\">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class=\"preview\" href=\"images/portfolio/full/item4.png\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-                
-                <div class=\"col-xs-12 col-sm-4 col-md-3\">
-                    <div class=\"recent-work-wrap\">
-                        <img class=\"img-responsive\" src=\"images/portfolio/recent/item5.png\" alt=\"\">
-                        <div class=\"overlay\">
-                            <div class=\"recent-work-inner\">
-                                <h3><a href=\"#\">Business theme</a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class=\"preview\" href=\"images/portfolio/full/item5.png\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-
-                <div class=\"col-xs-12 col-sm-4 col-md-3\">
-                    <div class=\"recent-work-wrap\">
-                        <img class=\"img-responsive\" src=\"images/portfolio/recent/item6.png\" alt=\"\">
-                        <div class=\"overlay\">
-                            <div class=\"recent-work-inner\">
-                                <h3><a href=\"#\">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class=\"preview\" href=\"images/portfolio/full/item6.png\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div> 
-
-                <div class=\"col-xs-12 col-sm-4 col-md-3\">
-                    <div class=\"recent-work-wrap\">
-                        <img class=\"img-responsive\" src=\"images/portfolio/recent/item7.png\" alt=\"\">
-                        <div class=\"overlay\">
-                            <div class=\"recent-work-inner\">
-                                <h3><a href=\"#\">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class=\"preview\" href=\"images/portfolio/full/item7.png\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-
-                <div class=\"col-xs-12 col-sm-4 col-md-3\">
-                    <div class=\"recent-work-wrap\">
-                        <img class=\"img-responsive\" src=\"images/portfolio/recent/item8.png\" alt=\"\">
-                        <div class=\"overlay\">
-                            <div class=\"recent-work-inner\">
-                                <h3><a href=\"#\">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class=\"preview\" href=\"images/portfolio/full/item8.png\" rel=\"prettyPhoto\"><i class=\"fa fa-eye\"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
+                    </div>   
+                ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['photo'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 191
+        echo "                
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#recent-works-->
@@ -379,100 +329,6 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
         </div><!--/.container-->
     </section><!--/#services-->
 
-    <section id=\"content\">
-        <div class=\"container\">
-            <div class=\"center wow fadeInDown\">
-                <h2>Nuestros clientes nos recomiendan</h2>
-                <p class=\"lead\"></p>
-            </div>
-            <div class=\"row\">
-                <div class=\"col-xs-12 col-sm-8 wow fadeInDown\">
-                   <div class=\"tab-wrap\"> 
-                        <div class=\"media\">
-                            <div class=\"parrent pull-left\">
-                                <ul class=\"nav nav-tabs nav-stacked\">
-                                    <li class=\"\"><a href=\"#tab1\" data-toggle=\"tab\" class=\"analistic-01\">Responsive Web Design</a></li>
-                                    <li class=\"active\"><a href=\"#tab2\" data-toggle=\"tab\" class=\"analistic-02\">Premium Plugin Included</a></li>
-                                    <li class=\"\"><a href=\"#tab3\" data-toggle=\"tab\" class=\"tehnical\">Predefine Layout</a></li>
-                                    <li class=\"\"><a href=\"#tab4\" data-toggle=\"tab\" class=\"tehnical\">Our Philosopy</a></li>
-                                    <li class=\"\"><a href=\"#tab5\" data-toggle=\"tab\" class=\"tehnical\">What We Do?</a></li>
-                                </ul>
-                            </div>
-
-                            <div class=\"parrent media-body\">
-                                <div class=\"tab-content\">
-                                    <div class=\"tab-pane fade\" id=\"tab1\">
-                                        <div class=\"media\">
-                                           <div class=\"pull-left\">
-                                                <img class=\"img-responsive\" src=\"images/tab2.png\">
-                                            </div>
-                                            <div class=\"media-body\">
-                                                 <h2>Adipisicing elit</h2>
-                                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                     <div class=\"tab-pane fade active in\" id=\"tab2\">
-                                        <div class=\"media\">
-                                           <div class=\"pull-left\">
-                                                <img class=\"img-responsive\" src=\"images/tab1.png\">
-                                            </div>
-                                            <div class=\"media-body\">
-                                                 <h2>Adipisicing elit</h2>
-                                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.
-                                                 </p>
-                                            </div>
-                                        </div>
-                                     </div>
-
-                                     <div class=\"tab-pane fade\" id=\"tab3\">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-                                     </div>
-                                     
-                                     <div class=\"tab-pane fade\" id=\"tab4\">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
-                                     </div>
-
-                                     <div class=\"tab-pane fade\" id=\"tab5\">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
-                                     </div>
-                                </div> <!--/.tab-content-->  
-                            </div> <!--/.media-body--> 
-                        </div> <!--/.media-->     
-                    </div><!--/.tab-wrap-->               
-                </div><!--/.col-sm-6-->
-
-                <div class=\"col-xs-12 col-sm-4 wow fadeInDown\">
-                    <div class=\"testimonial\">
-                        <h2>Testimonials</h2>
-                         <div class=\"media testimonial-inner\">
-                            <div class=\"pull-left\">
-                                <img class=\"img-responsive img-circle\" src=\"images/testimonials1.png\">
-                            </div>
-                            <div class=\"media-body\">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                                <span><strong>-John Doe/</strong> Director of corlate.com</span>
-                            </div>
-                         </div>
-
-                         <div class=\"media testimonial-inner\">
-                            <div class=\"pull-left\">
-                                <img class=\"img-responsive img-circle\" src=\"images/testimonials1.png\">
-                            </div>
-                            <div class=\"media-body\">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                                <span><strong>-John Doe/</strong> Director of corlate.com</span>
-                            </div>
-                         </div>
-
-                    </div>
-                </div>
-
-            </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#content-->
-
     <section id=\"partner\">
         <div class=\"container\">
             <div class=\"center wow fadeInDown\">
@@ -512,13 +368,13 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
 
 ";
         
-        $__internal_1e4bf1e581f5d1525daa81880e0c734a1e419195872db8e9edfedaa3e87ea9ea->leave($__internal_1e4bf1e581f5d1525daa81880e0c734a1e419195872db8e9edfedaa3e87ea9ea_prof);
+        $__internal_50ee29f81e6dddf699845ea015bd839752ecf6e0c8f4879607632c6460798a7c->leave($__internal_50ee29f81e6dddf699845ea015bd839752ecf6e0c8f4879607632c6460798a7c_prof);
 
     }
 
     public function getTemplateName()
     {
-        return ":default:index.html.twig";
+        return "default/index.html.twig";
     }
 
     public function isTraitable()
@@ -528,7 +384,7 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
 
     public function getDebugInfo()
     {
-        return array (  40 => 4,  34 => 3,  11 => 1,);
+        return array (  243 => 191,  231 => 185,  223 => 180,  219 => 178,  215 => 177,  40 => 4,  34 => 3,  11 => 1,);
     }
 }
 /* {% extends 'base.html.twig' %}*/
@@ -543,14 +399,14 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
 /*             </ol>*/
 /*             <div class="carousel-inner">*/
 /* */
-/*                 <div class="item active" style="background-image: url(images/slider/bg1.jpg)">*/
+/*                 <div class="item active" style="background-image: url(images/slider/bg8.jpg)">*/
 /*                     <div class="container">*/
 /*                         <div class="row slide-margin">*/
 /*                             <div class="col-sm-6">*/
 /*                                 <div class="carousel-content">*/
-/*                                     <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>*/
-/*                                     <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>*/
-/*                                     <a class="btn-slide animation animated-item-3" href="#">Read More</a>*/
+/*                                     <h1 class="animation animated-item-1">Registra todos los momentos de tu fiesta y dale a tus invitados un recuerdo personalizado</h1>*/
+/*                                     <h2 class="animation animated-item-2">Con nuestras cabinas fotográficas panorámicas o cerradas</h2>*/
+/*                                     <a class="btn-slide animation animated-item-3" href="#recent-works">Leer más</a>*/
 /*                                 </div>*/
 /*                             </div>*/
 /* */
@@ -564,20 +420,20 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
 /*                     </div>*/
 /*                 </div><!--/.item-->*/
 /* */
-/*                 <div class="item" style="background-image: url(images/slider/bg2.jpg)">*/
+/*                 <div class="item" style="background-image: url(images/slider/bg5.jpg)">*/
 /*                     <div class="container">*/
 /*                         <div class="row slide-margin">*/
 /*                             <div class="col-sm-6">*/
 /*                                 <div class="carousel-content">*/
-/*                                     <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>*/
-/*                                     <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>*/
-/*                                     <a class="btn-slide animation animated-item-3" href="#">Read More</a>*/
+/*                                     <h1 class="animation animated-item-1">Personaliza tus fotos</h1>*/
+/*                                     <h2 class="animation animated-item-2">Elije uno de nuestros diseños o envíanos el tuyo.</h2>*/
+/*                                     <a class="btn-slide animation animated-item-3" href="#feature">Leer más</a>*/
 /*                                 </div>*/
 /*                             </div>*/
 /* */
 /*                             <div class="col-sm-6 hidden-xs animation animated-item-4">*/
 /*                                 <div class="slider-img">*/
-/*                                     <img src="images/slider/img2.png" class="img-responsive">*/
+/*                                     <img src="images/slider/img5.png" class="img-responsive">*/
 /*                                 </div>*/
 /*                             </div>*/
 /* */
@@ -585,19 +441,40 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
 /*                     </div>*/
 /*                 </div><!--/.item-->*/
 /* */
-/*                 <div class="item" style="background-image: url(images/slider/bg3.jpg)">*/
+/*                 <div class="item" style="background-image: url(images/slider/bg7.jpg)">*/
 /*                     <div class="container">*/
 /*                         <div class="row slide-margin">*/
 /*                             <div class="col-sm-6">*/
 /*                                 <div class="carousel-content">*/
-/*                                     <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>*/
-/*                                     <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>*/
-/*                                     <a class="btn-slide animation animated-item-3" href="#">Read More</a>*/
+/*                                     <h2 class="animation animated-item-2">*/
+/*                                     */
+/* */
+/*                                     </h2>*/
+/*                                     */
 /*                                 </div>*/
 /*                             </div>*/
-/*                             <div class="col-sm-6 hidden-xs animation animated-item-4">*/
+/*                             <div class="col-sm-6 hidden-xs animation animated-item-4" align="left">*/
 /*                                 <div class="slider-img">*/
-/*                                     <img src="images/slider/img3.png" class="img-responsive">*/
+/*                                     <h1 class="animation animated-item-1">Al arrendar nuestras cabinas obtendrás:</h1>*/
+/*                                     */
+/*                                     <h2 class="animation animated-item-2">*/
+/* */
+/*                                     */
+/*                                         <p>Fotos Ilimitadas</p>*/
+/*                                         <p>Álbum de dedicatorias (*)</p>*/
+/*                                         <p>Personapzación de las tiras fotográficas</p>*/
+/*                                         <p>Fotografías Imantadas (**)</p>*/
+/*                                         <p>Cotillón para las fotos.</p>*/
+/*                                         <p>Operador</p>*/
+/*                                         <p>Traslado sin costo en toda la Región Metropolitana.</p>*/
+/*                                         <p>Publicación de todas las fotos de tu evento en nuestros servidores durante 45 días.</p>*/
+/*                                     */
+/*                                     <h2>(*) Sólo para matrimonios.</h2>*/
+/*                                     <h2>(**) Servicio opcional.</h2>*/
+/* */
+/*                                     <a class="btn-slide animation animated-item-3" href="#services">Leer más</a>*/
+/* */
+/*                                     </h2>*/
 /*                                 </div>*/
 /*                             </div>*/
 /*                         </div>*/
@@ -683,111 +560,24 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
 /*                 <h2>Nuestro Trabajo</h2>*/
 /*                 <p class="lead">Cada evento es un compromiso al que nos entregamos con alegría y profesinalismo. Nos esmeramos en que cada fotografía se convierta en el mejor recuerdo.</p>*/
 /*             </div>*/
-/* */
+/*   */
 /*             <div class="row">*/
-/*                 <div class="col-xs-12 col-sm-4 col-md-3">*/
-/*                     <div class="recent-work-wrap">*/
-/*                         <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">*/
-/*                         <div class="overlay">*/
-/*                             <div class="recent-work-inner">*/
-/*                                 <h3><a href="#">Business theme</a> </h3>*/
-/*                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>*/
-/*                                 <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>*/
-/*                             </div> */
-/*                         </div>*/
-/*                     </div>*/
-/*                 </div>   */
 /* */
-/*                 <div class="col-xs-12 col-sm-4 col-md-3">*/
-/*                     <div class="recent-work-wrap">*/
-/*                         <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">*/
-/*                         <div class="overlay">*/
-/*                             <div class="recent-work-inner">*/
-/*                                 <h3><a href="#">Business theme</a></h3>*/
-/*                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>*/
-/*                                 <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>*/
-/*                             </div> */
+/*                 {% for photo in seleccion %}*/
+/*                     <div class="col-xs-12 col-sm-4 col-md-3">*/
+/*                         <div class="recent-work-wrap">*/
+/*                             <img class="img-responsive" src="{{ asset(photo) }}" alt="">*/
+/*                             <div class="overlay">*/
+/*                                 <div class="recent-work-inner">*/
+/*                                     <h3><a href="#">Declaración</a> </h3>*/
+/*                                     <p>Esta fotografía pertenece a quien contrató nuestro servicio. Prohibida su reproducción.</p>*/
+/*                                     <a class="preview" href="{{asset(photo)}}" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>*/
+/*                                 </div> */
+/*                             </div>*/
 /*                         </div>*/
-/*                     </div>*/
-/*                 </div> */
-/* */
-/*                 <div class="col-xs-12 col-sm-4 col-md-3">*/
-/*                     <div class="recent-work-wrap">*/
-/*                         <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">*/
-/*                         <div class="overlay">*/
-/*                             <div class="recent-work-inner">*/
-/*                                 <h3><a href="#">Business theme </a></h3>*/
-/*                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>*/
-/*                                 <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>*/
-/*                             </div> */
-/*                         </div>*/
-/*                     </div>*/
-/*                 </div>   */
-/* */
-/*                 <div class="col-xs-12 col-sm-4 col-md-3">*/
-/*                     <div class="recent-work-wrap">*/
-/*                         <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">*/
-/*                         <div class="overlay">*/
-/*                             <div class="recent-work-inner">*/
-/*                                 <h3><a href="#">Business theme </a></h3>*/
-/*                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>*/
-/*                                 <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>*/
-/*                             </div> */
-/*                         </div>*/
-/*                     </div>*/
-/*                 </div>   */
+/*                     </div>   */
+/*                 {% endfor %}*/
 /*                 */
-/*                 <div class="col-xs-12 col-sm-4 col-md-3">*/
-/*                     <div class="recent-work-wrap">*/
-/*                         <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">*/
-/*                         <div class="overlay">*/
-/*                             <div class="recent-work-inner">*/
-/*                                 <h3><a href="#">Business theme</a></h3>*/
-/*                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>*/
-/*                                 <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>*/
-/*                             </div> */
-/*                         </div>*/
-/*                     </div>*/
-/*                 </div>   */
-/* */
-/*                 <div class="col-xs-12 col-sm-4 col-md-3">*/
-/*                     <div class="recent-work-wrap">*/
-/*                         <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">*/
-/*                         <div class="overlay">*/
-/*                             <div class="recent-work-inner">*/
-/*                                 <h3><a href="#">Business theme </a></h3>*/
-/*                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>*/
-/*                                 <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>*/
-/*                             </div> */
-/*                         </div>*/
-/*                     </div>*/
-/*                 </div> */
-/* */
-/*                 <div class="col-xs-12 col-sm-4 col-md-3">*/
-/*                     <div class="recent-work-wrap">*/
-/*                         <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">*/
-/*                         <div class="overlay">*/
-/*                             <div class="recent-work-inner">*/
-/*                                 <h3><a href="#">Business theme </a></h3>*/
-/*                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>*/
-/*                                 <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>*/
-/*                             </div> */
-/*                         </div>*/
-/*                     </div>*/
-/*                 </div>   */
-/* */
-/*                 <div class="col-xs-12 col-sm-4 col-md-3">*/
-/*                     <div class="recent-work-wrap">*/
-/*                         <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">*/
-/*                         <div class="overlay">*/
-/*                             <div class="recent-work-inner">*/
-/*                                 <h3><a href="#">Business theme </a></h3>*/
-/*                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>*/
-/*                                 <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>*/
-/*                             </div> */
-/*                         </div>*/
-/*                     </div>*/
-/*                 </div>   */
 /*             </div><!--/.row-->*/
 /*         </div><!--/.container-->*/
 /*     </section><!--/#recent-works-->*/
@@ -875,100 +665,6 @@ class __TwigTemplate_9a584ece912fbf8b6de3f9707f1b58089d908c4459569afc990f0b0e3f8
 /*             </div><!--/.row-->*/
 /*         </div><!--/.container-->*/
 /*     </section><!--/#services-->*/
-/* */
-/*     <section id="content">*/
-/*         <div class="container">*/
-/*             <div class="center wow fadeInDown">*/
-/*                 <h2>Nuestros clientes nos recomiendan</h2>*/
-/*                 <p class="lead"></p>*/
-/*             </div>*/
-/*             <div class="row">*/
-/*                 <div class="col-xs-12 col-sm-8 wow fadeInDown">*/
-/*                    <div class="tab-wrap"> */
-/*                         <div class="media">*/
-/*                             <div class="parrent pull-left">*/
-/*                                 <ul class="nav nav-tabs nav-stacked">*/
-/*                                     <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Responsive Web Design</a></li>*/
-/*                                     <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Premium Plugin Included</a></li>*/
-/*                                     <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>*/
-/*                                     <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Our Philosopy</a></li>*/
-/*                                     <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">What We Do?</a></li>*/
-/*                                 </ul>*/
-/*                             </div>*/
-/* */
-/*                             <div class="parrent media-body">*/
-/*                                 <div class="tab-content">*/
-/*                                     <div class="tab-pane fade" id="tab1">*/
-/*                                         <div class="media">*/
-/*                                            <div class="pull-left">*/
-/*                                                 <img class="img-responsive" src="images/tab2.png">*/
-/*                                             </div>*/
-/*                                             <div class="media-body">*/
-/*                                                  <h2>Adipisicing elit</h2>*/
-/*                                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>*/
-/*                                             </div>*/
-/*                                         </div>*/
-/*                                     </div>*/
-/* */
-/*                                      <div class="tab-pane fade active in" id="tab2">*/
-/*                                         <div class="media">*/
-/*                                            <div class="pull-left">*/
-/*                                                 <img class="img-responsive" src="images/tab1.png">*/
-/*                                             </div>*/
-/*                                             <div class="media-body">*/
-/*                                                  <h2>Adipisicing elit</h2>*/
-/*                                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.*/
-/*                                                  </p>*/
-/*                                             </div>*/
-/*                                         </div>*/
-/*                                      </div>*/
-/* */
-/*                                      <div class="tab-pane fade" id="tab3">*/
-/*                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>*/
-/*                                      </div>*/
-/*                                      */
-/*                                      <div class="tab-pane fade" id="tab4">*/
-/*                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>*/
-/*                                      </div>*/
-/* */
-/*                                      <div class="tab-pane fade" id="tab5">*/
-/*                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>*/
-/*                                      </div>*/
-/*                                 </div> <!--/.tab-content-->  */
-/*                             </div> <!--/.media-body--> */
-/*                         </div> <!--/.media-->     */
-/*                     </div><!--/.tab-wrap-->               */
-/*                 </div><!--/.col-sm-6-->*/
-/* */
-/*                 <div class="col-xs-12 col-sm-4 wow fadeInDown">*/
-/*                     <div class="testimonial">*/
-/*                         <h2>Testimonials</h2>*/
-/*                          <div class="media testimonial-inner">*/
-/*                             <div class="pull-left">*/
-/*                                 <img class="img-responsive img-circle" src="images/testimonials1.png">*/
-/*                             </div>*/
-/*                             <div class="media-body">*/
-/*                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>*/
-/*                                 <span><strong>-John Doe/</strong> Director of corlate.com</span>*/
-/*                             </div>*/
-/*                          </div>*/
-/* */
-/*                          <div class="media testimonial-inner">*/
-/*                             <div class="pull-left">*/
-/*                                 <img class="img-responsive img-circle" src="images/testimonials1.png">*/
-/*                             </div>*/
-/*                             <div class="media-body">*/
-/*                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>*/
-/*                                 <span><strong>-John Doe/</strong> Director of corlate.com</span>*/
-/*                             </div>*/
-/*                          </div>*/
-/* */
-/*                     </div>*/
-/*                 </div>*/
-/* */
-/*             </div><!--/.row-->*/
-/*         </div><!--/.container-->*/
-/*     </section><!--/#content-->*/
 /* */
 /*     <section id="partner">*/
 /*         <div class="container">*/
